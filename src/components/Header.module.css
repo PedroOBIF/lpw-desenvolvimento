@@ -1,0 +1,33 @@
+.header {
+  background-color: #2e4a2b;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  color: #d2ffb0;
+  text-shadow: 1px 1px #000;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks a {
+  color: #b7f7b3;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
