@@ -7,7 +7,7 @@ export default function Header() {
       <h1 className={styles.title}>Eco Game</h1>
       <nav className={styles.navLinks}>
         <Link to="/">Início</Link>
-        <Link to="/personagens">Personagens</Link>
+        <Link to="/historia">História do Jogo</Link>
         <Link to="/equipe">Equipe</Link>
       </nav>
     </header>
