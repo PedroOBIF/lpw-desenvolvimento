@@ -8,7 +8,7 @@ export default function Header() {
       <nav className={styles.navLinks}>
         <Link to="/">Início</Link>
         <Link to="/personagens">Personagens</Link>
-        <Link to="/tutorial">Tutorial</Link>
+        <Link to="/equipe">Equipe</Link>
       </nav>
     </header>
   );
